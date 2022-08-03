@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medical Test Appointment</title>
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+
+    <body>
+        <!-- Top Navigation  -->
+        <header class="top-bar">
+          <section class="top-bar-left">
+            <ul class="menu">
+              <!-- For Mobile -->
+              <li><a href="#" onclick="openNav()" id="openOverlay" class="hamburger"><img src="images/menu.svg" alt="Hamburger"></a></li>
+              <!-- Logos -->
+              <li id="logo1"><a href="index.html"><img class="logo" src="images/testChief.svg" alt="Test Chief Logo"></a></li>
+          </ul>
+          </section>
+          <section class="top-bar-right">
+            <ul class="menu">
+              <li><a href="">My Appointments</a></li>
+              <li><a href="">Request Appointments</a></li>
+              <li class="searchBar"><a class="searchAnchor" href="#"><img src="images/searchIcon.svg" alt="">Search</a></li>
+              <li><a href="#" class="login">Log in</a></li>
+            </ul>
+          </section>
+        </header>
+        <!-- Overlay -->
+        <section id="mobileMenu" class="menuOverlay">
+          <a href="#" id="closeOverlay" class="close" onclick="closeNav()"><img src="images/close.svg"></a>
+          <section class="overlayContent">
+            <a href="#">My Appointments</a>
+            <a href="#">Request Appointments</a>
+            <a href="#">Search</a>
+            <a href="#">Log in</a>
+          </section>
+        </section>
+        </section>
+        <!-- Hero section -->
+        <main class="grid-container">
+            <section class="grid-x grid-padding-x heroSection">
+              <section class="cell small-12 medium-6 large-6 leftSide">
+                <img src="images/heroIllustration.svg" alt="">
+              </section>
+              <section class="cell small-12 medium-6 large-6 rightSide">
+                <h1>Get the medical attention that you deserve</h1>
+                <p>We have made the process convenient by keeping the needs of immigrants at the very core.</p>
+                <a href="testInfo.html"><img id="heroCTA" onmouseover="addNewImage()" onmouseout="addOldImage()" src="images/heroCTA.svg" alt="Book Appointment Button"></a>
+              </section>
+              <!-- Display Elements -->
+              <section class="elements">
+                <img src="images/element1.svg" class="element1" alt="">
+                <img src="images/element2.svg" class="element2" alt="">
+                <img src="images/element3.svg" class="element3" alt="">
+                <img src="images/element4.svg" class="element4" alt="">
+              </section>
+            </section>
+            <!-- Select Test Type -->
+            <section class="grid-x browseTests">
+                <h2 class="cell small-8 medium-10 large-10">Frequently browsed tests</h2>
+                <a class="cell small-4 medium-2 large-2 viewAll" href="#">View all</a>
+                <ul class="grid-x grid-padding-x testTypes">
+                    <li class="cell small-12 medium-4 large-2">
+                      <a class="test" href="testInfo.html"><img src="images/ultrasound.png" alt="Ultrasound Image"></a>
+                      <p>Ultrasound</p>
+                    </li>
+                    <li class="cell small-12 medium-4 large-2">
+                      <a class="test" href="testInfo.html"><img src="images/xRay.png" alt="X-Ray Inage"></a>
+                      <p>X-Ray</p>
+                    </li>
+                    <li class="cell small-12 medium-4 large-2">
+                      <a class="test" href="testInfo.html"><img src="images/ctScan.png" alt="CT-Scan Image"></a>
+                      <p>CT-Scan</p>
+                    </li>
+                    <li class="cell small-12 medium-4 large-2">
+                      <a class="test" href="testInfo.html"><img src="images/urineTest.png" alt="Urine Test Image"></a>
+                      <p>Urine Test</p>
+                    </li>
+                    <li class="cell small-12 medium-4 large-2">
+                      <a class="test" href="testInfo.html"><img src="images/bloodTest.png" alt="Blood Test Image"></a>
+                      <p>Blood Test</p>
+                    </li>
+                    <li class="cell small-12 medium-4 large-2">
+                      <a class="test" href="testInfo.html"><img src="images/mriScan.png" alt="MRI Scan"></a>
+                      <p>MRI Scan</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- Footer Navigation -->
+        <footer class="grid-x grid-container-full grid-padding-x">
+            <section class="cell small-12 medium-6 large-6 logo">
+              <section class="">
+                <a href="index.html" class="cell small-2 medium-3 large-3 footerLogo"><img src="images/testChief.svg" alt="Test Chief Logo"></a>
+              </section>
+            </section>
+            <section class="cell small-12 medium-6 large-6 ">
+              <section class="grid-x footerMenu">
+                <section class="cell small-4 medium-4 large-4">
+                    <ul class="vertical menu">
+                        <li><a class="footerAnchor" href="#" class="">Appointments</a></li>
+                        <li><a class="footerAnchor" href="#" class="">Book Test</a></li>
+                        <li><a class="footerAnchor" href="#" class="">Profile</a></li>
+                    </ul>
+                </section>
+                <section class="cell small-4 medium-4 large-4">
+                  <ul class="vertical menu">
+                    <li><a class="footerAnchor" href="" class="">Register</a></li>
+                    <li><a class="footerAnchor" href="" class="">Doctor's Register</a></li>
+                  </ul>
+                </section>
+                <section class="cell small-4 medium-4 large-4">
+                  <ul class="vertical menu">
+                    <li><a class="footerAnchor" href="" class="">About us</a></li>
+                    <li><a class="footerAnchor" href="" class="">Contact us</a></li>
+                    <li><a class="footerAnchor" href="" class="">Privacy & Policy</a></li>
+                  </ul>
+                </section>
+              </section>
+            </section>
+        </footer>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/notify.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

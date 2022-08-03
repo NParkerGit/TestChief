@@ -1,0 +1,1269 @@
+/*
+  Stylesheet: Master CSS
+  Created By: Shivansh Rana
+  Created On: June 13, 2022
+*/
+
+/*
+  Typeface link - Adobe Fonts
+*/
+
+@import url("https://use.typekit.net/kiz4vvj.css");
+
+@font-face {
+  font-family: Recoleta;
+  src: url(fonts/recoleta-regulardemo.otf);
+}
+
+@font-face {
+  font-family: RoundedMedium;
+  src: url(fonts/PPRounded-Medium.otf);
+}
+
+@font-face {
+  font-family: RoundedSemiBold;
+  src: url(fonts/PPRounded-Semibold.otf);
+}
+
+@font-face {
+  font-family: RoundedBold;
+  src: url(fonts/PPPangramSansRounded-Bold.otf);
+}
+
+h1 {
+  font-family: Recoleta;
+}
+
+html, body {
+  font-family: Recoleta, Filson Pro, Helvetica;
+  background-color: #FFFFFF;
+}
+
+/* Header Styling - Starts */
+.top-bar .menu .hamburger {
+  display: none;
+}
+
+.top-bar {
+  background-color: white;
+}
+
+
+.top-bar .logo {
+  max-width: 70%;
+}
+
+.top-bar .logoWhite {
+  display: none;
+}
+
+.top-bar-left {
+  padding-left: 72px;
+}
+
+.top-bar-right {
+  padding-right: 72px;
+}
+
+.top-bar ul {
+  background-color: white;
+}
+
+.top-bar-right input {
+  border-radius: 24px;
+  border: none;
+}
+
+li a {
+  font-weight: bold;
+  color: #002348;
+}
+
+.searchBar {
+  background-color: #F3F6F9;
+  padding-top: 0px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-radius: 24px;
+  margin-left: 8px;
+  margin-right: 40px;
+  font-family: Recoleta;
+  font-weight: medium;
+  font-size: 14px;
+}
+
+.searchBar a {
+  color: #8A9DB2;
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+
+.searchBar img {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+
+.login {
+  background-color: #003E81;
+  color: #FFFFFF;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right:40px;
+  border-radius: 24px;
+  font-family: Filson Pro;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.top-bar .login {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* After Login Top Bar */
+
+.searchBar2 {
+  background-color: #FFFFFF;
+  padding-top: 0px;
+  padding-right: 120px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-radius: 24px;
+  margin-left: 8px;
+  margin-right: 40px;
+  font-family: Filson Pro;
+  font-weight: medium;
+  font-size: 14px;
+}
+
+.searchBar2 a {
+  color: #BCBCBC;
+  padding-bottom:0px;
+  padding-top: 14px;
+}
+
+.searchBar2 .searchAnchor {
+  padding-left: 12px;
+}
+
+.searchBar2 img {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+
+.top-bar .profile { 
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.profile img {
+  padding-right: 8px;
+}
+
+/* Hero Section - Starts */
+
+.heroSection {
+  background-color: #FDD9E6;
+  margin-top: 5px;
+}
+
+.heroSection .leftSide {
+  padding: 0px;
+}
+.leftSide img {
+  max-width: 100%;
+}
+
+.rightSide {
+  margin-top: 150px;
+}
+
+.heroSection h1 {
+  font-weight: bold;
+  padding-left: 82px;
+  font-size: 38px;
+  line-height: 130%;
+  color: #002348;
+}
+
+.heroSection p {
+  font-family: Filson Pro;
+  font-weight: normal;
+  padding-right: 24px;
+  padding-left: 82px;
+  margin-bottom: 0px;
+}
+
+.rightSide a {
+  padding: 0px;
+}
+
+/* Display Elements - Hero Section */
+
+.heroSection .element1 {
+  position: absolute;
+  top: 410px;
+  right: 0px;
+  z-index: 0;
+}
+
+.heroSection .element2 {
+  position: absolute;
+  top: 120px;
+  left: 600px;
+}
+
+.heroSection .element3 {
+  position: absolute;
+  top: 130px;
+  left: 640px;
+}
+
+.heroSection .element4 {
+  position: absolute;
+  top: 620px;
+  left: 640px;
+}
+/* Browse Tests - Starts */
+
+.browseTests {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.browseTests h2 {
+  font-family: Recoleta;
+  font-weight: bold;
+  font-size: 16px;
+  color: #002348;
+}
+
+.browseTests .viewAll {
+  text-align: right;
+  font-family: Filson Pro;
+  font-weight: bold;
+  font-size: 14px;
+  color: #0152A8;
+}
+
+.testTypes {
+  margin: 0px;
+  padding-top: 32px;
+}
+
+.browseTests li {
+  list-style: none;
+  text-align: center;
+  margin-right: 0px;
+  margin-bottom: 32px;
+  font-family: Filson Pro;
+  font-weight: bold;
+  font-size: 14px;
+  color: #002348;
+}
+
+.browseTests li p {
+  padding-top: 12px;
+}
+
+.browseTests .test {
+  color: black;
+}
+
+/* Pseudo Code for hover */
+.browseTests img:hover {
+  transform: scale(1.15);
+}
+
+/* Footer - Starts */
+
+footer {
+  margin-top: 30px;
+  background-color: #F7FAFC;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footerAnchor {
+  color: #003E81;
+  font-family: Filson Pro;
+  font-weight: normal;
+  font-size: 13px;
+}
+/* Wizzard Section */
+/* Test Info - Page */
+
+.autosaving img {
+  position: absolute;
+  top: 186px;
+  right: 159px;
+}
+
+.opacityImg{
+  opacity: 0.1;
+}
+
+.wizzardSection {
+  padding-top: 60px;
+  padding-right: 0px;
+  padding-left: 65px;
+}
+
+.wizzardSection li {
+  list-style: none;
+  padding: 0px;
+}
+
+.wizzardSection .backButton a {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.wizzardSection .continueButton {
+  padding-top: 8px;
+}
+
+.wizzardSection .continueButton a {
+  background-color: #003E81;
+  padding: 16px 40px;
+  border-radius: 24px;
+  font-family: Filson Pro;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.testInfoContainer {
+  padding-top: 40px;
+  padding-right: 95px;
+  padding-bottom: 60px;
+  padding-left: 95px;  
+}
+
+.testInfoRightSection {
+  padding-left: 100px;
+}
+
+.testInfoRightSection h1 {
+  font-family: Recoleta;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  color: #002348;
+}
+
+.testInfoRightSection h2 {
+  font-family: Filson Pro;
+  color: #002348;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.testInfoRightSection p {
+  font-family: Filson Pro;
+  font-size: 15px;
+  color: #667B91;
+}
+
+.testInfoRightSection .infoText {
+  margin-bottom: 32px;
+}
+
+.testInfoRightSection li {
+  list-style: none;
+}
+
+.prerequisites {
+  padding-top: 8px;
+}
+
+.prerequisites ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.testInfoRightSection .dropdown a {
+  border-radius: 12px;
+  background-color: #F6F8FB;
+  padding: 12px 24px;
+  color: #002348;
+  border: #EAEDF2;
+  border-width: 1px;
+}
+
+.testInfoRightSection .dropdown a img {
+  padding-left: 12px;
+  margin-right: 0px;
+}
+
+.testInfoRightSection .duration {
+  text-align: center;
+}
+
+.prerequisitesList {
+  margin-top: 24px;
+  padding-top: 32px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 24px;
+  background-color: #F7FAFC;
+  border-radius: 24px;
+}
+
+.prerequisitesList2 {
+  margin-top: 24px;
+  padding-top: 32px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 24px;
+  background-color: #F7FAFC;
+  border-radius: 24px;
+}
+
+.prerequisitesList img {
+  padding-right: 24px;
+}
+
+.prerequisitesList2 img {
+  padding-right: 24px;
+}
+
+.prerequisitesList li {
+  padding-bottom: 16px;
+  color: #003E81;
+}
+
+.prerequisitesList2 li {
+  padding-bottom: 16px;
+  color: #003E81;
+}
+/* Form Starts */
+
+form {
+  font-family: Recoleta;
+  padding: 60px 200px;
+	margin: 10px auto;
+  border-radius: 8px;
+}
+
+form h1{
+  font-size: 24px;
+  text-align: center;
+}
+
+form h2{
+  font-size: 12px;
+  color:rgb(89, 89, 89);
+}
+
+form .checkboxSection {
+  margin: 0px;
+}
+
+label{
+  font-family: Filson Pro;
+  font-size: 14px;
+  color: #8091A4;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #F6F8FB;
+  border: 1px solid #EAEDF2;
+  height: 50px;
+  color: #002348;
+}
+
+/* Pseudo Code for focus */
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus {
+  border: 1px solid #EAEDF2;
+}
+input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover {
+  border: 1px solid #81AFF3;
+}
+
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=tel]::placeholder {
+  color: #B5BDCB;
+}
+
+/* Slot Booking Page */
+
+iframe{
+  width: 100%;
+  height: 300px;
+}
+
+.locationButton {
+  width: 100%;
+}
+
+.locationButton a {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: Filson Pro;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: #535353;
+  width: 100%;
+}
+
+hr{
+  border: 0.5px solid #e7e7e7;
+}
+
+.listOfLocationsTitle{
+  padding-left: 40px;
+}
+
+.locationContainer {
+  padding-right: 95px;
+  padding-left: 95px;
+  padding-top: 32px;
+}
+
+.locationContainer h1 {
+  color: #8091A4;
+}
+
+.locationContainer a {
+  background-color: #F7FAFC;
+  color: #002348;
+  padding: 16px 24px;
+  border-radius: 16px;
+}
+
+.testInfoTopSection .bookingInfoRightSection a{
+  color: #002348;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  font-family: Recoleta;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.listOfLocations {
+  margin-bottom: 40px;
+}
+
+.bookingInfoRightSection .listOfLocationsTitle {
+  padding-bottom: 24px;
+}
+
+.bookingInfoRightSection2 h2 {
+  margin-bottom: 12px;
+}
+
+.locationHeader {
+  font-size: 15px;
+  color: #a5a5a5;
+}
+
+.selectedButton {
+  background-color: #FDD9E6;
+  border-radius: 12px;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+
+#dateForm label {
+  padding-left: 0px;
+}
+
+#timeForm label {
+  padding-left: 0px;
+}
+
+.bookingInfoRightSection li {
+  list-style: none;
+}
+
+.bookingInfoContainer {
+  padding-left: 95px;
+  padding-right: 95px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.bookingInfoContainer label{
+  padding-left: 20px;
+}
+
+.bookingInfoLeftSection label {
+  padding-bottom: 12px;
+}
+
+.bookingInfoLeftSection form {
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bookingInfoLeftSection input::placeholder {
+  color: #B5BDCB;
+}
+
+.bookingInfoLeftSection form input {
+  border-radius: 12px;
+  height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: none;
+  background-color: #F7FAFC;
+  border: 1px solid #EAEDF2;
+}
+
+.bookingInfoRightSection label {
+  padding-bottom: 12px;
+}
+
+.bookingInfoRightSection form {
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bookingInfoRightSection form select {
+  border-radius: 12px;
+  height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: none;
+  background-color: #F7FAFC;
+  border: 1px solid #EAEDF2;
+}
+
+/* Booking Infor Right Section - Option 2 */
+
+.right .bookingInfoRightSection {
+  display: none;
+}
+
+.bookingInfoRightSection2 {
+  padding-top: 12px;
+}
+
+.bookingInfoRightSection2 h2 {
+  padding-left: 24px;
+  font-size: 14px;
+  font-family: Filson Pro;
+  font-weight: normal;
+  color: #8091A4;
+}
+
+.bookingInfoRightSection2 a {
+  padding: 12px 24px;
+  background-color: #EDF3F9;
+  color: #0152A8;
+  font-family: Filson Pro;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 32px;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.selectedTime a {
+  color: white;
+  background-color: #0152A8;
+}
+
+.bookingInfoRightSection2 .timeTags {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+}
+
+.timeTags{
+  list-style: none;
+}
+
+/* Confirmation Info - Page */
+
+.confirmationInfoContainer {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.confirmationInfoLeftSection img {
+  background-color: #DAD9EA;
+  padding: 60px;
+  border-radius: 12px;
+}
+
+.confirmationInfoRightSection {
+  padding-left: 40px;
+}
+
+.backgroundContainer {
+  background-color: #F6F8FB;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+.confirmationInfoRightSection h1 {
+  font-family: Recoleta;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  padding-top: 4px;
+  color: #002348;
+}
+
+.confirmationInfoRightSection .testTag {
+  background-color: #EAEDF2;
+  color: #002348;
+  font-family: Filson Pro;
+  font-weight: medium;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 9px;
+  margin-bottom: 24px;
+}
+
+.confirmationInfoRightSection h2, .confirmationPrerequisites h1  {
+  font-family: Filson Pro;
+  color: #A6A6A6;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.confirmationInfoRightSection .infoText {
+  color: #777777;
+  margin-bottom: 32px;
+}
+
+.confirmationInfoRightSection li {
+  list-style: none;
+}
+
+.backgroundContainer h2 {
+  color: #002348;
+}
+
+.noteBanner{
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.editButton{
+  color: black;
+}
+
+.prerequisitesList {
+  padding: 0px;
+  padding-top: 32px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.prerequisitesList2 {
+  padding: 0px;
+  padding-top: 32px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+.confirmationPrerequisites p {
+  color: #667B91;
+}
+/* Overlay Styling */
+
+.menuOverlay {
+  display: none;
+}
+
+#notifications {
+  display: none;
+  background-color: #B856B2;
+  font-family: Filson Pro;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  z-index: 9999;
+  top: 0px;
+  margin-top: 65px;
+  margin-right: 15px;
+  max-width: 380px; 
+  padding-top: 24px;  
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 12px; 
+}
+
+/* @media query for decorative elements */
+
+@media only screen and (max-width : 1199px) {
+
+  .element1 {
+    display: none;
+  }
+
+  .element2 {
+    display: none;
+  }
+
+  .element3 {
+    display: none;
+  }
+
+  .element4 {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+.heroSection  {
+  background-color: white;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 5px;
+}
+
+main {
+   background-color: white;
+}
+
+/* Header Styling - Starts */
+
+.top-bar .top-bar-left a {
+  padding-left: 8px;
+}
+
+#logo1 {
+  display: block;
+}
+
+#Logo2 {
+  display: block;
+  max-width: 60%;
+}
+
+.top-bar {
+  background-color: white;
+}
+
+.top-bar-left .menu {
+  background-color: white;
+}
+
+.top-bar .menu .hamburger {
+  display: flex;
+}
+
+.top-bar .top-bar-left {
+  padding-left: 0px;
+}
+
+.top-bar .top-bar-right {
+  display: none;
+}
+
+/* Hero Section - Starts */
+
+.heroSection {
+  padding-top: 0px;
+  margin-top: 5px;
+}
+
+.leftSide {
+  display: block;
+}
+
+.heroSection .leftSide {
+  padding: 0px;
+}
+
+.heroSection .rightSide {
+  background-color: #FDD9E6;
+  margin-top: 0px;
+  padding-top: 24px;
+}
+
+.heroSection .rightSide h1 {
+  font-family: Recoleta;
+  text-align: center;
+  color: #002348;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.heroSection .rightSide p {
+  font-family: Filson Pro;
+  color: #002348;
+  text-align: center;
+  font-size: 13px;
+  line-height: 164%;
+}
+
+.heroSection .rightSide h1 {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.heroSection .rightSide p {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.leftSide img {
+  margin: 0px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.rightSide {
+  margin-top: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.rightSide h1 {
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.rightSide p {
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.cta1 {
+  margin-bottom: 60px;
+  border-radius: 24px;
+  background-color: #002348;
+  color: white;
+}
+
+/* Wizzard Styling */
+
+.wizzardSection .backButton a {
+  font-size: 16px;
+}
+
+.wizzardSection {
+  padding-top: 40px;
+  padding-left: 0px;
+}
+
+.wizzardSection .continueButton {
+  text-align: center;
+}
+
+.wizzardSection .continueButton a {
+  font-size: 13px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+/* Autosaving Styling */
+
+.autosaving img {
+  top: 166px;
+  right: 45px;
+}
+
+/* Browse Tests - Starts */
+
+.browseTests {
+  background-color: #FFF8FA;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.browseTests ul {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* Footer - Starts */
+
+footer {
+  padding-right: 24px;
+  padding-left: 24px;
+  background-color: #F7FAFC;
+  margin-top: 0px;
+}
+
+.footerAnchor {
+  font-size: 12px;
+}
+
+footer .logo img {
+  max-width: 40%;
+}
+
+footer .footerAnchor {
+  padding-top: 24px;
+  padding-right: 0px;
+  padding-left: 4px;
+}
+
+.footerMenu {
+  padding-top: 40px;
+}
+
+/* Test Info - Page */
+
+.testInfoContainer {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.testInfoLeftSection {
+  padding: 0px;
+  text-align: center;
+}
+
+.testInfoRightSection {
+  padding-left: 0px;
+}
+
+.testInfoLeftSection .testIllustration {
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.testInfoRightSection {
+  padding-top: 32px;
+}
+
+.testInfoRightSection p {
+  font-size: 13px;
+}
+
+.dropdown a {
+  font-size: 13px;
+}
+
+.prerequisites {
+  padding-top: 40px;
+  padding-right: 0px;
+  padding-bottom: 24px;
+  padding-left: 0px;
+}
+
+.prerequisitesList2 {
+  padding-top: 40px;
+  padding-right: 0px;
+  padding-bottom: 24px;
+  padding-left: 0px;
+}
+
+.prerequisites p {
+  padding-left: 40px;
+}
+
+.prerequisitesList img {
+  padding-right: 8px;
+}
+
+.prerequisitesList2 img {
+  padding-right: 8px;
+}
+
+.prerequisitesList li {
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+.prerequisitesList2 li {
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+/* Personal Info Page */
+
+form {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+/* Booking Page */
+
+.bookingInfoRightSection .listOfLocationsTitle {
+  padding-bottom:24px;
+}
+
+.locationContainer {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.listOfLocations {
+  padding-bottom: 32px;
+}
+
+.listOfLocations a {
+  padding-right: 0px;
+}
+
+.bookingInfoContainer {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.testInfoTopSection ul {
+  margin: 0px;
+}
+
+.bookingInfoRightSection .selectedButton {
+  padding-right: 110px;
+}
+
+.bookingInfoRightSection {
+  padding-top: 32px;
+}
+
+#dateform input {
+  margin: 0px;
+}
+
+.bookingInfoRightSection2 li {
+  margin-bottom: 32px;
+}
+
+/* Confirmation Info - Page */
+
+.confirmationInfoContainer {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.backgroundContainer h2 {
+  color: #002348;
+}
+
+.backgroundContainer {
+  padding: 20px;
+}
+
+.noteBanner {
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.prerequisitesList {
+  padding: 20px;
+}
+
+.confirmationInfoLeftSection {
+  padding: 0px;
+  text-align: center;
+}
+
+.confirmationInfoLeftSection .testIllustration {
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.confirmationInfoRightSection {
+  padding: 0px;
+  padding-top: 32px;
+}
+
+.confirmationInfoRightSection p {
+  font-size: 13px;
+}
+
+/* Overlay Styling */
+
+.menuOverlay {
+  display: block;
+}
+
+.menuOverlay {
+  background-color: #0152A8;
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+}
+
+.overlayContent {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  padding-left: 40px;
+  padding-top: 120px;
+}
+
+.overlayContent a {
+  color: #FDD9E6;
+  padding: 16px;
+  font-size: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.overlayContent a:focus, .overlayContent a:hover {
+  color: white;
+}
+
+.menuOverlay .close img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+
+#notifications {
+  display: none;
+  background-color: #B856B2;
+  font-family: Filson Pro;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  z-index: 9999;
+  top: 0px;
+  margin-top: 65px;
+  margin-right: 15px;
+  max-width: 380px; 
+  padding-top: 24px;  
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 12px;
+}
+
+}
